@@ -58,4 +58,6 @@ function reversePolish(str) {
     return stack.peek();
 }
 
-alert(reversePolish(prompt("Enter reverse polish")));
+function request() {
+    alert(reversePolish(prompt("Enter reverse polish")));
+}
